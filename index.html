@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content=""><title>Neko File</title><script type="text/javascript" src="js/js-sweetalert2.min.js"></script><link rel="stylesheet" href="css/css-audioplayer.css"><link rel="stylesheet" href="css/css-animate.min.css"><link rel="icon" type="image/png" href="favicons/file-4WbA310gg~y47rv0XPBc.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="//fleetime.net/assets/css/rt-plugins.css"><link rel="stylesheet" href="//fleetime.net/assets/css/app.css"><script type="text/javascript" src="js/js-sweetalert2.min.js"></script><script src="js/js-settings.js" sync></script><style>body{display:none}</style></head><script>!function(e,a,t,n,g,c){e.GoogleAnalyticsObject=n,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=+new Date,g=a.createElement(t),c=a.getElementsByTagName(t)[0],g.async=1,g.src="//www.google-analytics.com/analytics.js",c.parentNode.insertBefore(g,c)}(window,document,"script","ga"),ga("create","UA-16180617-29","auto"),ga("send","pageview")</script><body class="font-inter dashcode-app" id="body_class"><div id="overlay"><div class="cv-spinner"><span class="spinner"></span></div></div><main class="app-wrapper"><div class="content-wrapper transition-all duration-150 ltr:ml-[248px] rtl:mr-[248px]" id="content_wrapper"><div class="page-content"><div class="transition-all duration-150 container-fluid" id="page_layout"><div id="content_layout"><div><div class="grid grid-cols-12 gap-5 mb-5"><div class="2xl:col-span-3 lg:col-span-4 col-span-12"><div class="bg-no-repeat bg-cover bg-center p-4 rounded-[6px] relative" style="background-image:url(//fleetime.net/assets/images/all-img/widget-bg-1.png)"><div class="max-w-[180px]"><div class="text-xl font-medium text-slate-900 mb-2">Free &amp; Simple File CDN</div><p class="text-sm text-slate-800"><a href="//zyy.sh">Made With &#128150; by zyy.sh</a></p></div><div class="absolute top-1/2 -translate-y-1/2 ltr:right-6 rtl:left-6 mt-2 h-12 w-12 bg-white rounded-full text-xs font-medium flex flex-col items-center justify-center"><button id="themeMood" class="h-[28px] w-[28px] lg:h-[32px] lg:w-[32px] lg:bg-gray-500-f7 bg-slate-50 dark:bg-slate-900 lg:dark:bg-slate-900 dark:text-white text-slate-900 cursor-pointer rounded-full text-[20px] flex flex-col items-center justify-center"><iconify-icon class="text-slate-800 dark:text-white text-xl dark:block hidden" id="moonIcon" icon="line-md:sunny-outline-to-moon-alt-loop-transition"></iconify-icon><iconify-icon class="text-slate-800 dark:text-white text-xl dark:hidden block" id="sunIcon" icon="line-md:moon-filled-to-sunny-filled-loop-transition"></iconify-icon></button></div></div></div><div class="2xl:col-span-9 lg:col-span-8 col-span-12"><div class="p-4 card"><div class="grid md:grid-cols-3 col-span-1 gap-4"><div class="py-[18px] px-4 rounded-[6px] bg-[#E5F9FF] dark:bg-slate-900"><div class="flex items-center space-x-6 rtl:space-x-reverse"><div class="flex-none"><div id="wline1"></div></div><div class="flex-1"><div class="text-slate-800 dark:text-slate-300 text-sm mb-1 font-medium">Totel Files</div><div class="text-slate-900 dark:text-white text-lg font-medium"> 329 </div></div></div></div><div class="py-[18px] px-4 rounded-[6px] bg-[#FFEDE5] dark:bg-slate-900"><div class="flex items-center space-x-6 rtl:space-x-reverse"><div class="flex-none"><div id="wline2"></div></div><div class="flex-1"><div class="text-slate-800 dark:text-slate-300 text-sm mb-1 font-medium">Total Size</div><div class="text-slate-900 dark:text-white text-lg font-medium"> 332.11 MB </div></div></div></div></div></div></div></div><div class="card rounded-md bg-white dark:bg-slate-800 lg:h-full shadow-base"><div class="card-body flex flex-col p-6 active"><header class="flex mb-5 items-center"><div class="flex-1"><div class="card-title font-Inter text-slate-900 dark:text-white">Drop File Zone</div><div class="card-subtitle font-Inter">Maximum file size: 1 GB</div></div></header><div class="image-box mb-6"><label><input type="file" class="w-full hidden" name="file" id="the_file" required> <span class="w-full h-[40px] file-control flex items-center custom-class"><span class="flex-1 overflow-hidden text-ellipsis whitespace-nowrap"><span id="placeholder" class="text-slate-400">Choose a file or drop it here...</span> </span><span class="file-name flex-none cursor-pointer border-l px-4 border-slate-200 dark:border-slate-700 h-full inline-flex items-center bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-400 text-sm rounded-tr rounded-br font-normal">Browse</span></span></label></div><div class="card-text h-full menu-open"><div id="progress_container" class="progress_container"><progress class="hidden" id="progressBar" value="0" max="100" style="width:100%"></progress><p id="status_bar"></p></div><button id="upload-button" class="btn inline-flex justify-center btn-primary rounded-[25px]"><span class="flex items-center"><iconify-icon class="text-xl ltr:mr-2 rtl:ml-2" icon="heroicons-outline:upload"></iconify-icon><span>Upload File</span></span></button> <button id="btn_abort" class="hidden btn inline-flex justify-center btn-warning rounded-[25px]"><span class="flex items-center"><iconify-icon class="text-xl ltr:mr-2 rtl:ml-2" icon="iconamoon:close-bold"></iconify-icon><span>Cancel</span></span></button></div></div></div></div></div><div id="mess"></div></div></div></div></main><!-- scripts --><script src="js/js-jquery-3.6.0.min.js"></script><script src="js/js-rt-plugins.js"></script><script src="js/js-app.js"></script><script src="js/js-audioplayer.js"></script><script>function bytesToSize(e){var o;return 0==e?"0 Byte":(o=parseInt(Math.floor(Math.log(e)/Math.log(1024))),Math.round(e/Math.pow(1024,o),2)+" "+["B","Kb","Mb","Gb","Tb"][o])}function progressHandler(e){var o=e.loaded/e.total*100,t=e.loaded,e=e.total,l=((new Date).getTime()-started_at.getTime())/1e3,a=l?t/l:0,l=l?Math.floor((e-t)/a):"calculating";$("#progressBar").val(Math.round(o)),$("#status_bar").html(Math.round(o)+"% uploaded"+` (${l} Seconds Remaining )`)}document.addEventListener("DOMContentLoaded",function(e){var o=document.querySelectorAll(".make-snippet");[].forEach.call(o,function(e){var o=(o=e.innerHTML.replace(/,"&lt;")).replace(/ /g,"&nbsp;");e.insertAdjacentHTML("afterend",'<pre class="language-markup"><code>'+o+"")}),window.Prism&&Prism.highlightAll(!1)}),Toast=Swal.mixin({toast:!0,position:"top-end",showConfirmButton:!1,timer:5e3,timerProgressBar:!0,didOpen:e=>{e.addEventListener("mouseenter",Swal.stopTimer),e.addEnventListener("mouseleave",Swal.resumeTimer)}}),$(document).on("change","input",function(){var e=$("input[type=file]").val().replace(/C:\\fakepath\\/i,"");$("#placeholder").html(e)}),$(document).ready(function(){$("#upload-button").click(function(){if(""==$("#the_file").val())return Toast.fire({icon:"error",title:"Please select the file!"}),!1;$("#progressBar").removeClass("hidden"),$("#btn_abort").removeClass("hidden");var e,o,t=document.getElementById("the_file").files[0];""!=t&&($("#upload-button").hide(),(e=new FormData).append("file",t),o=new XMLHttpRequest,$("#btn_abort").click(function(){abortHandler(o)}),started_at=new Date,o.upload.addEventListener("progress",progressHandler,!1),o.addEventListener("load",completeHandler,!1),o.addEventListener("error",errorHandler,!1),o.addEventListener("abort",abortHandler,!1),o.open("POST","/backend/upload.php"),o.send(e))})});let showed=!1;function completeHandler(e){try{var o,t,l=(reul=JSON.parse(e.target.responseText)).result;reul.error?(Toast.fire({icon:"error",title:"Upload Failed, "+reul.error}),$("#progress_container").addClass("hidden"),$("#upload-button").show(),$("#message_info").html("Upload Failed, "+reul.error)):(Toast.fire({icon:"success",title:"Upload Success, Scroll Down to view..."}),$("#upload-button").show(),$("#btn_abort").hide(),$("#progress_container").hide(),o=l.originalname.split(".").pop(),t=`<div class="card mt-2 rounded-md bg-white dark:bg-slate-800 lg:h-full  shadow-base">
+    <div class="card-body flex flex-col p-6 active">
+      <div class="card-text h-full">
+        <header class="border-b px-4 pt-4 pb-3 flex items-center border-success-500">
+          <iconify-icon class="text-3xl inline-block ltr:mr-2 rtl:ml-2 text-success-500" icon="ph:circle-wavy-check">
+          <h3 class="card-title mb-0 text-success-500">Upload Success
+        
+        <div class="py-3 px-5">
+          <h5 class="card-subtitle">Your file has been successfully uploaded
+          <form>
+            <div class="form-group mt-2">
+              <label>Name:
+              <input type="text" class="form-control text-secondary" value="${l.originalname}" readonly="readonly">
+            
+            <div class="form-group mt-2">
+              <label>URL: (Click to copy)
+              <input type="text" id="to-copy" class="form-control text-secondary" value="${l.url}" readonly="readonly" onclick="copyValue('${l.url}')">
+            
+            <div class="form-group mt-2">
+              <label>File URL: (Click to copy)
+              <input type="text" id="to-fileCopy" class="form-control text-secondary" value="${l.url_file}" readonly="readonly" onclick="copyValue('${l.url_file}')">
+            
+            <div class="form-group mt-2">
+              <label>Extension:
+              <input type="text" class="form-control text-secondary" value="${o}" readonly="readonly">
+            
+            <div class="form-group mt-2">
+              <label>MimeType:
+              <input type="text" class="form-control text-secondary" value="${l.mimetype}" readonly="readonly">
+            
+            <div class="form-group mt-2">
+              <label>Encoding:
+              <input type="text" class="form-control text-secondary" value="${l.encoding}" readonly="readonly">
+            
+            <div class="form-group mt-2">
+              <label>Size:
+              <input type="text" class="form-control text-secondary" value="${l.filesize}" readonly="readonly">
+            
+            ${["jpg","png","webp","gif"].includes(o)?`
+            <div class="form-group mt-2">
+              <label>Preview:
+              <br>
+              <img src="${l.url_file}" class="thumb" alt="${l.originalname}">
+            
+            `:""}
+            ${["mp3","ogg","wav"].includes(o)&&"audio"===result.mimetype.split("/")[0]?`
+            <div class="form-group mt-2">
+              <label>Preview:
+              <br>
+              <audio controls preload="auto">
+                <source src="${l.url_file}">
+              
+            
+            `:""}
+            ${["mp4","webm","ogg"].includes(o)&&"video"===result.mimetype.split("/")[0]?`
+            <div class="form-group mt-2">
+              <label>Preview:
+              <br>
+              <video controls autoplay class="thumb" controlsList="nodownload">
+                <source src="${l.url_file}" type="${l.mimetype}">
+              
+            
+            `:""}
+          
+        
+      
+    
+  `,$("#upload-button").html("Refresh to upload another file"),$("#upload-button").click(function(){location.href="/"}),$("#mess").html(t))}catch(e){Toaster.fire({icon:"error",title:"Oh No...Upload Failed"}),$("#message_info").html("Oh No...Upload Failed, Please try again!"),$("#progress_container").addClass("hidden"),$("#upload-button").show()}}function errorHandler(e){Toast.fire({icon:"error",title:"Connection Error..."}),$("#upload-button").show(),$("#progress_container").addClass("hidden"),$("#message_info").html("Upload Failed, Please Check Your Connection!")}function abortHandler(e){Toast.fire({icon:"warning",title:"Upload Canceled..."}),$("#upload-button").show(),$("#progress_container").addClass("hidden"),$("#message_info").html("Upload Canceled..."),e.abort()}function copyValue(e){var o=document.createElement("input");o.value=e,document.body.appendChild(o),o.select(),document.execCommand("copy"),document.body.removeChild(o),Toast.fire({icon:"success",title:"Url Success copied"})}$(function(){$("audio").audioPlayer()})</script><script>$("#overlay").fadeIn(500),$(document).ready(function(){$("#overlay").delay(500).fadeOut(500),$("body").show()})</script><script src="js/js-copied.js"></script></body></html>
